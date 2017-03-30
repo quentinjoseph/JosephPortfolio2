@@ -79,6 +79,15 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
+	"\/javascript\/javascript.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/javascript\/javascript-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/stylesheet-min.css": {
 		"aP": 1,
 		"bl": 0,
