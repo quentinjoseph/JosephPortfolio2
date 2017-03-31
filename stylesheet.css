@@ -1,16 +1,17 @@
 
-body {font-family: Helvetica;margin:0; background: #E9EAEA; 
-background-position: center;}
+body {font-family: Helvetica;margin:0; background: #E9EAEA; background-image: url(images/BrownRetroBackground.jpg); 
+background-position: center; background-attachment: fixed; background-repeat: no repeat;}
 
-#qName {font-size: 48px; margin-top: 2px; color:white; font-style: italic;}
+#qName {font-size: 48px; font-weight:100;margin-top: 2px; color:white; font-style: italic;
+		}
 header{color:white; height:60px; background:#3D3A37;position: relative;
-margin-top: -0px; padding:5px;opacity: 0.8;border-radius: 10px; border: 3px solid white;box-shadow: 1px 10px 5px #888888;}
+margin-top: -0px; padding:5px;opacity: 0.8;border-radius: 10px; border: 5px solid rgb(91, 66, 43);box-shadow: 1px 10px 5px rgba(61, 58, 55, 0.5);}
 
 ul {text-align:right; margin-right: 225px; position:relative; 
 	margin-top:-56px;}
 
 .links {color:white; text-decoration: none;}
-.links:hover{color:orange; text-decoration:underline;}
+.links:hover{color:orange; text-decoration:overline;}
 
 ul li {display: inline; padding: 20px;}
 
@@ -19,21 +20,21 @@ ul li {display: inline; padding: 20px;}
 margin-top:20px;white-space: nowrap;
 height:250px;
 width:1000px;}
-.picRow img {border-radius: 50px;box-shadow: 1px 10px 5px #888888;}
+.picRow img {border-radius: 50px;box-shadow: 1px 10px 5px rgba(61, 58, 55, 0.0);}
 
 #list { width:400px; margin:auto; border:1px solid black; text-align: center; border-radius: 10px;
-	    box-shadow: 1px 10px 15px #888888;}
+	    box-shadow: 1px 10px 15px rgba(61, 58, 55, 0.5);background-color: rgba(91, 66, 43,0.5)}
 .Olist{text-align:left;list-style-position:outside;}
 
-.bio {text-align:left; width:50%;}
+.bio {margin:auto; width:50%;}
 
-blockquote{font-size: 12px; font-style: italic;}
+blockquote{font-size: 12px; font-style: italic;border:1px solid; border-radius: 4px;background-color: rgba(91, 66, 43,0.8)}
 
-.contactMe {font-weight: bold; width: 400px;}
+.contactMe {margin:auto; width: 400px;}
 
-.submit {background: #3D3A37; border-radius: 5px; color:white;}
+.submit {background: rgba(61, 58, 55, 0.5); border-radius: 5px; color:white;}
 .email {border-radius: 5px;}
 
 .thinking{height: 300px; width: 300px; 
 display:block; margin:auto; margin-top:-20px;position:relative;
-z-index: -1;}
+z-index: -1; opacity: 0.5;}

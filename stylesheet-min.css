@@ -2,10 +2,14 @@ body {
   font-family: Helvetica;
   margin: 0;
   background: #E9EAEA;
-  background-position: center; }
+  background-image: url(images/BrownRetroBackground.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no repeat; }
 
 #qName {
   font-size: 48px;
+  font-weight: 100;
   margin-top: 2px;
   color: white;
   font-style: italic; }
@@ -19,8 +23,8 @@ header {
   padding: 5px;
   opacity: 0.8;
   border-radius: 10px;
-  border: 3px solid white;
-  box-shadow: 1px 10px 5px #888888; }
+  border: 5px solid #5b422b;
+  box-shadow: 1px 10px 5px rgba(61, 58, 55, 0.5); }
 
 ul {
   text-align: right;
@@ -34,7 +38,7 @@ ul {
 
 .links:hover {
   color: orange;
-  text-decoration: underline; }
+  text-decoration: overline; }
 
 ul li {
   display: inline;
@@ -49,7 +53,7 @@ ul li {
 
 .picRow img {
   border-radius: 50px;
-  box-shadow: 1px 10px 5px #888888; }
+  box-shadow: 1px 10px 5px rgba(61, 58, 55, 0); }
 
 #list {
   width: 400px;
@@ -57,26 +61,30 @@ ul li {
   border: 1px solid black;
   text-align: center;
   border-radius: 10px;
-  box-shadow: 1px 10px 15px #888888; }
+  box-shadow: 1px 10px 15px rgba(61, 58, 55, 0.5);
+  background-color: rgba(91, 66, 43, 0.5); }
 
 .Olist {
   text-align: left;
   list-style-position: outside; }
 
 .bio {
-  text-align: left;
+  margin: auto;
   width: 50%; }
 
 blockquote {
   font-size: 12px;
-  font-style: italic; }
+  font-style: italic;
+  border: 1px solid;
+  border-radius: 4px;
+  background-color: rgba(91, 66, 43, 0.8); }
 
 .contactMe {
-  font-weight: bold;
+  margin: auto;
   width: 400px; }
 
 .submit {
-  background: #3D3A37;
+  background: rgba(61, 58, 55, 0.5);
   border-radius: 5px;
   color: white; }
 
@@ -90,4 +98,5 @@ blockquote {
   margin: auto;
   margin-top: -20px;
   position: relative;
-  z-index: -1; }
+  z-index: -1;
+  opacity: 0.5; }
