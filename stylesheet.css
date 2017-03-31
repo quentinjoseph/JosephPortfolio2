@@ -13,6 +13,9 @@ ul {text-align:right; margin-right: 225px; position:relative;
 .links {color:white; text-decoration: none;}
 .links:hover{color:orange; text-decoration:overline;}
 
+.pglinks {color:white; text-decoration: none;}
+.pglinks:hover{color:orange; text-decoration:underline;}
+
 ul li {display: inline; padding: 20px;}
 
 
@@ -35,6 +38,6 @@ blockquote{font-size: 12px; font-style: italic;border:1px solid; border-radius: 
 .submit {background: rgba(61, 58, 55, 0.5); border-radius: 5px; color:white;}
 .email {border-radius: 5px;}
 
-.thinking{height: 300px; width: 300px; 
+.emoji{height: 300px; width: 300px; 
 display:block; margin:auto; margin-top:-20px;position:relative;
 z-index: -1; opacity: 0.5;}
