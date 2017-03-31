@@ -1,16 +1,16 @@
 
-body {font-family: sans-serif;margin:0; background: #E9EAEA; 
+body {font-family: Helvetica;margin:0; background: #E9EAEA; 
 background-position: center;}
 
-#qName {font-size: 48px; margin-top: 2px;}
+#qName {font-size: 48px; margin-top: 2px; color:white; font-style: italic;}
 header{color:white; height:60px; background:#3D3A37;position: relative;
-margin-top: -0px; padding:5px;opacity: 0.8;border-radius: 20px;}
+margin-top: -0px; padding:5px;opacity: 0.8;border-radius: 10px; border: 3px solid white;box-shadow: 1px 10px 5px #888888;}
 
 ul {text-align:right; margin-right: 225px; position:relative; 
-	margin-top:-43px;}
+	margin-top:-56px;}
 
 .links {color:white; text-decoration: none;}
-.links:hover{color:orange;}
+.links:hover{color:orange; text-decoration:underline;}
 
 ul li {display: inline; padding: 20px;}
 
@@ -19,9 +19,11 @@ ul li {display: inline; padding: 20px;}
 margin-top:20px;white-space: nowrap;
 height:250px;
 width:1000px;}
-.picRow img {border-radius: 50px;box-shadow: 10px 10px 5px #888888;}
+.picRow img {border-radius: 50px;box-shadow: 1px 10px 5px #888888;}
 
-#list { width:300px; margin:auto; border:1px solid black; text-align: center; border-radius: 10px;}
+#list { width:400px; margin:auto; border:1px solid black; text-align: center; border-radius: 10px;
+	    box-shadow: 1px 10px 15px #888888;}
+.Olist{text-align:left;list-style-position:outside;}
 
 .bio {text-align:left; width:50%;}
 
@@ -32,6 +34,6 @@ blockquote{font-size: 12px; font-style: italic;}
 .submit {background: #3D3A37; border-radius: 5px; color:white;}
 .email {border-radius: 5px;}
 
-.thinking{height: 250px; width: 250px; 
+.thinking{height: 300px; width: 300px; 
 display:block; margin:auto; margin-top:-20px;position:relative;
 z-index: -1;}

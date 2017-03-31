@@ -1,12 +1,14 @@
 body {
-  font-family: sans-serif;
+  font-family: Helvetica;
   margin: 0;
   background: #E9EAEA;
   background-position: center; }
 
 #qName {
   font-size: 48px;
-  margin-top: 2px; }
+  margin-top: 2px;
+  color: white;
+  font-style: italic; }
 
 header {
   color: white;
@@ -16,20 +18,23 @@ header {
   margin-top: -0px;
   padding: 5px;
   opacity: 0.8;
-  border-radius: 20px; }
+  border-radius: 10px;
+  border: 3px solid white;
+  box-shadow: 1px 10px 5px #888888; }
 
 ul {
   text-align: right;
   margin-right: 225px;
   position: relative;
-  margin-top: -43px; }
+  margin-top: -56px; }
 
 .links {
   color: white;
   text-decoration: none; }
 
 .links:hover {
-  color: orange; }
+  color: orange;
+  text-decoration: underline; }
 
 ul li {
   display: inline;
@@ -44,14 +49,19 @@ ul li {
 
 .picRow img {
   border-radius: 50px;
-  box-shadow: 10px 10px 5px #888888; }
+  box-shadow: 1px 10px 5px #888888; }
 
 #list {
-  width: 300px;
+  width: 400px;
   margin: auto;
   border: 1px solid black;
   text-align: center;
-  border-radius: 10px; }
+  border-radius: 10px;
+  box-shadow: 1px 10px 15px #888888; }
+
+.Olist {
+  text-align: left;
+  list-style-position: outside; }
 
 .bio {
   text-align: left;
@@ -74,8 +84,8 @@ blockquote {
   border-radius: 5px; }
 
 .thinking {
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 300px;
   display: block;
   margin: auto;
   margin-top: -20px;
